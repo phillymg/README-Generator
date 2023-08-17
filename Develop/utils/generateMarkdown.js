@@ -40,24 +40,45 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   return `# ${response.title}
 
-//   ## Description\n
-//   ${response.title}
-//   ## Table of Contents
-//   ${response.contents}
-//   ## Installation Instructions
-//   ${response.install}
-//   ## Usage Information
-//   ${response.usage}
-//   ## License
-//   renderLicenseLink()
-//   ## Contribution Guidelines
-//   ${response.contribute}
-//   ## Test Instructions
-//   ${response.test}
-//   ## Questions
-//   ${response.github}
-//   ${response.email}
-// `;
+## Description
+
+${response.describe}
+
+## Table of Contents
+[Description](##-Description)
+[Installation Instructions](##-Installation-Instructions)
+[Usage Information](##-Usage-Information)
+[License](##-License)
+[Contribution Guidelines](##-Contribution-Guidelines)
+[Test Instructions](##-Test-Instructions)
+[Questions](##-Questions) 
+
+## Installation Instructions
+
+${response.install}
+
+## Usage Information
+
+${response.usage}
+
+## License
+
+renderLicenseLink()
+
+## Contribution Guidelines
+
+${response.contribute}
+
+## Test Instructions
+
+${response.test}
+
+## Questions
+
+${response.github}
+
+${response.email}
+ `;
 };
 
 module.exports = { generateMarkdown };
