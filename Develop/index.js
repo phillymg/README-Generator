@@ -63,18 +63,12 @@ inquirer
     .prompt(questions)
 
     // TODO: Create a function to write README file
-    .then((input) => {
-        const markdown = markdown.generateMarkdown(input)
-        fs.writeFile('../README.md', markdown, (err) =>
+    .then((data) => {
+        let allData = markdown.generateMarkdown(data);
+        fs.writeFile('../README.md', allData, (err) =>
             err ? console.error(err) : console.log('File Created')
         )
     });
-
-let allData = markdown.generateMarkdown(data);
-fs.writeFile('GeneratedReadme.md', allData, function (err) {
-    if (err) throw err;
-    console.log('Saved!');
-});
 
 
 // TODO: Create a function to initialize app
