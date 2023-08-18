@@ -45,39 +45,39 @@ function generateMarkdown(response) {
 ${response.describe}
 
 ## Table of Contents
-[Description](##-Description)
-[Installation Instructions](##-Installation-Instructions)
-[Usage Information](##-Usage-Information)
-[License](##-License)
-[Contribution Guidelines](##-Contribution-Guidelines)
-[Test Instructions](##-Test-Instructions)
-[Questions](##-Questions) 
+* [Description](##-Description)
+* [Installation](##-Installation)
+* [Usage](##-Usage)
+* [License](##-License)
+* [Contribution Guidelines](##-Contributing)
+* [Tests](##-Tests)
+* [Questions](##-Questions) 
 
-## Installation Instructions
+## Installation
 
 ${response.install}
 
-## Usage Information
+## Usage
 
 ${response.usage}
 
 ## License
 
-renderLicenseLink()
 
-## Contribution Guidelines
+
+## Contributing
 
 ${response.contribute}
 
-## Test Instructions
+## Tests
 
 ${response.test}
 
 ## Questions
 
-${response.github}
+https://github.com/phillymg${response.github}
 
-${response.email}
+Please email me at ${response.email} with anyquestions.
  `;
 };
 
