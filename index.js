@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'list',
         message: 'Which license would you like to use?',
-        choices: ["GPL 3.0", "MIT"],
+        choices: ["GPL 3.0", "MIT", "none"],
         default: "MIT",
         name: 'license',
     },
@@ -60,7 +60,7 @@ inquirer
     // TODO: Create a function to write README file
     .then((data) => {
         let allData = markdown.generateMarkdown(data);
-        fs.writeFile('../README.md', allData, (err) =>
+        fs.writeFile('./README.md', allData, (err) =>
             err ? console.error(err) : console.log('File Created')
         )
     });
