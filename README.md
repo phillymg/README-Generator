@@ -1,10 +1,10 @@
 
-  # README Generator
+  # Social Network API
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-This application allows the user to quickly create a high quality README file.
+This is backend code to allow functionality of creating and deleting users, thoughts, and reactions to thoughts. It also allows users to add friends and remove friends.
 
 ## Table of Contents
 * [Description](#description)
@@ -17,13 +17,11 @@ This application allows the user to quickly create a high quality README file.
 
 ## Installation
 
-Be sure to install npm by using the command 'npm install'.
+Be sure to run "npm i" to install node packages.
 
 ## Usage
 
-Start the application and enter a response to each prompt.
-
-https://drive.google.com/file/d/18MX2FC2JCC6TuA6-0LSWgeJ-90JWK6IC/view
+Here is a link to demonstrate the backend in MongoDB.
 
 
 ## License
@@ -34,15 +32,15 @@ This project uses the MIT license.
 
 ## Contributing
 
-There are none.
+There ar eno contribution guidelines.
 
 ## Tests
 
-There are none.
+There are no test instructions.
 
 ## Questions
 
 https://github.com/phillymgphillymg
 
-Please email me at phillipmguetterman@att.net with anyquestions.
+Please email me at phillipmguetterman@att.net with any questions.
  
