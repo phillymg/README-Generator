@@ -1,10 +1,10 @@
 
-  # Social Network API
+  # Book-Search-Engine
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-This is backend code to allow functionality of creating and deleting users, thoughts, and reactions to thoughts. It also allows users to add friends and remove friends.
+This allows the user to create an account and search a database of books. It also allows the user to save books on their account.
 
 ## Table of Contents
 * [Description](#description)
@@ -17,12 +17,11 @@ This is backend code to allow functionality of creating and deleting users, thou
 
 ## Installation
 
-Be sure to run "npm i" to install node packages.
+There are no installation instructions
 
 ## Usage
 
-Here is a link to demonstrate the backend in MongoDB.
-
+Click this link to access my portfolio!
 
 ## License
 This project uses the MIT license.
@@ -32,7 +31,7 @@ This project uses the MIT license.
 
 ## Contributing
 
-There ar eno contribution guidelines.
+There are no contribution guidelines.
 
 ## Tests
 
